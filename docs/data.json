@@ -77,7 +77,7 @@
             "name": "lib/query.js",
             "modules": {},
             "classes": {
-                "Query<T>": 1
+                "Query": 1
             },
             "fors": {},
             "namespaces": {}
@@ -277,9 +277,9 @@
                 }
             ]
         },
-        "Query<T>": {
-            "name": "Query<T>",
-            "shortname": "Query<T>",
+        "Query": {
+            "name": "Query",
+            "shortname": "Query",
             "classitems": [],
             "plugins": [],
             "extensions": [],
@@ -1231,7 +1231,7 @@
             "line": 23,
             "description": "クエリを直接記述して設定します。",
             "itemtype": "method",
-            "name": "Query<T>#where",
+            "name": "Query#where",
             "params": [
                 {
                     "name": "where",
@@ -1243,14 +1243,14 @@
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 41,
             "description": "指定したkeyの値がvalueと等しいオブジェクトを検索します。",
             "itemtype": "method",
-            "name": "Query<T>#equalTo",
+            "name": "Query#equalTo",
             "params": [
                 {
                     "name": "key",
@@ -1266,14 +1266,14 @@
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 53,
             "description": "指定したkeyの値がvalueと等しくないオブジェクトを検索します。",
             "itemtype": "method",
-            "name": "Query<T>#notEqualTo",
+            "name": "Query#notEqualTo",
             "params": [
                 {
                     "name": "key",
@@ -1289,14 +1289,14 @@
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 65,
             "description": "指定したkeyの値がvalueより小さいオブジェクトを検索します。",
             "itemtype": "method",
-            "name": "Query<T>#lessThan",
+            "name": "Query#lessThan",
             "params": [
                 {
                     "name": "key",
@@ -1312,14 +1312,14 @@
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 77,
             "description": "指定したkeyの値がvalue以下のオブジェクトを検索します。",
             "itemtype": "method",
-            "name": "Query<T>#lessThanOrEqualTo",
+            "name": "Query#lessThanOrEqualTo",
             "params": [
                 {
                     "name": "key",
@@ -1335,14 +1335,14 @@
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 89,
             "description": "指定したkeyの値がvalueより大きいオブジェクトを検索します。",
             "itemtype": "method",
-            "name": "Query<T>#greaterThan",
+            "name": "Query#greaterThan",
             "params": [
                 {
                     "name": "key",
@@ -1358,14 +1358,14 @@
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 101,
             "description": "指定したkeyの値がvalue以上のオブジェクトを検索します。",
             "itemtype": "method",
-            "name": "Query<T>#greaterThanOrEqualTo",
+            "name": "Query#greaterThanOrEqualTo",
             "params": [
                 {
                     "name": "key",
@@ -1381,14 +1381,14 @@
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 113,
             "description": "指定したkeyの値が、配列values内のいずれかと等しいオブジェクトを検索します",
             "itemtype": "method",
-            "name": "Query<T>#in",
+            "name": "Query#in",
             "params": [
                 {
                     "name": "key",
@@ -1405,14 +1405,14 @@
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 126,
             "description": "指定したkeyの値が、配列values内のいずれとも等しくないオブジェクトを検索します。",
             "itemtype": "method",
-            "name": "Query<T>#notIn",
+            "name": "Query#notIn",
             "params": [
                 {
                     "name": "key",
@@ -1429,14 +1429,14 @@
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 139,
             "description": "指定したキーに値が存在するオブジェクトを検索します。\nexistがtrue(false)の場合、指定したkeyに値が存在する(しない)オブジェクトを検索します。\n第二引数は省略可。省略時はtrueを指定した場合と同意となります。",
             "itemtype": "method",
-            "name": "Query<T>#exists",
+            "name": "Query#exists",
             "params": [
                 {
                     "name": "key",
@@ -1453,14 +1453,14 @@
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 155,
             "description": "指定したkeyの値が正規表現regexに合致するオブジェクトを検索します。",
             "itemtype": "method",
-            "name": "Query<T>#regularExpressionTo",
+            "name": "Query#regularExpressionTo",
             "params": [
                 {
                     "name": "key",
@@ -1477,14 +1477,14 @@
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 168,
             "description": "指定したkeyの値が、配列values内のいずれかと等しいオブジェクトを検索します",
             "itemtype": "method",
-            "name": "Query<T>#inArray",
+            "name": "Query#inArray",
             "params": [
                 {
                     "name": "key",
@@ -1501,14 +1501,14 @@
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 181,
             "description": "指定したkeyの値が、配列values内のいずれとも等しくないオブジェクトを検索します。",
             "itemtype": "method",
-            "name": "Query<T>#notInArray",
+            "name": "Query#notInArray",
             "params": [
                 {
                     "name": "key",
@@ -1525,14 +1525,14 @@
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 194,
             "description": "指定したkeyの値が、配列values内のすべての値を含むオブジェクトを検索します。",
             "itemtype": "method",
-            "name": "Query<T>#allInArray",
+            "name": "Query#allInArray",
             "params": [
                 {
                     "name": "key",
@@ -1549,14 +1549,14 @@
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 207,
             "description": "指定したキーの位置情報が指定した位置に近い順でオブジェクトを検索します。",
             "itemtype": "method",
-            "name": "Query<T>#near",
+            "name": "Query#near",
             "params": [
                 {
                     "name": "key",
@@ -1573,14 +1573,14 @@
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 222,
             "description": "検索範囲内(Km)で、指定したキーの位置情報が指定した位置に近い順でオブジェクトを検索します。",
             "itemtype": "method",
-            "name": "Query<T>#withinKilometers",
+            "name": "Query#withinKilometers",
             "params": [
                 {
                     "name": "key",
@@ -1602,14 +1602,14 @@
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 240,
             "description": "検索範囲内(ml)で、指定したキーの位置情報が指定した位置に近い順でオブジェクトを検索します。",
             "itemtype": "method",
-            "name": "Query<T>#withinMiles",
+            "name": "Query#withinMiles",
             "params": [
                 {
                     "name": "key",
@@ -1631,14 +1631,14 @@
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 258,
             "description": "検索範囲内(rad)で、指定したキーの位置情報が指定した位置に近い順でオブジェクトを検索します。",
             "itemtype": "method",
-            "name": "Query<T>#withinRadians",
+            "name": "Query#withinRadians",
             "params": [
                 {
                     "name": "key",
@@ -1660,14 +1660,14 @@
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 276,
             "description": "指定したキーの位置情報で、左下（southWestVertex）と右上（northEastVertex）の2地点からなる矩形（長方形）で設定された検索範囲の内部にあるオブジェクトを検索します。",
             "itemtype": "method",
-            "name": "Query<T>#withinSquare",
+            "name": "Query#withinSquare",
             "params": [
                 {
                     "name": "key",
@@ -1689,33 +1689,33 @@
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 294,
             "description": "複数の検索条件subqueriesを設定し、その検索結果のいずれかに合致するオブジェクトを検索します\n配列で複数の条件を一度に設定でき、複数回実行することで検索条件を追加できます。",
             "itemtype": "method",
-            "name": "Query<T>#or",
+            "name": "Query#or",
             "params": [
                 {
                     "name": "subqueries",
                     "description": "検索条件",
-                    "type": "Array<Query<T>>|Query<T>"
+                    "type": "Array<Query>|Query"
                 }
             ],
             "return": {
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 315,
             "description": "subqueriesの検索結果のうち、指定したsubkeyとkeyの値が一致するオブジェクトを検索します。",
             "itemtype": "method",
-            "name": "Query<T>#select",
+            "name": "Query#select",
             "params": [
                 {
                     "name": "key",
@@ -1737,14 +1737,14 @@
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 355,
             "description": "objectのkeyのプロパティに関連づけられているリレーションの実態（オブジェクト）を検索します。\nobjectはmobile backend に保存済みである必要があります。",
             "itemtype": "method",
-            "name": "Query<T>#relatedTo",
+            "name": "Query#relatedTo",
             "params": [
                 {
                     "name": "object",
@@ -1760,14 +1760,14 @@
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 385,
             "description": "subqueriesの検索結果のうち、指定したkeyに設定されているポインタの実態（オブジェクト）を検索します。\nobjectはmobile backend に保存済みである必要がある。",
             "itemtype": "method",
-            "name": "Query<T>#inQuery",
+            "name": "Query#inQuery",
             "params": [
                 {
                     "name": "key",
@@ -1777,21 +1777,21 @@
                 {
                     "name": "subquery",
                     "description": "検索条件",
-                    "type": "Query<T>"
+                    "type": "Query"
                 }
             ],
             "return": {
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 423,
             "description": "指定したkeyに設定されているポインタの実態（オブジェクト）を検索し、返却値として返します。\n複数回実行した場合、最後に設定したキーが反映されます。複数のキーを指定することはできません。",
             "itemtype": "method",
-            "name": "Query<T>#include",
+            "name": "Query#include",
             "params": [
                 {
                     "name": "key",
@@ -1803,26 +1803,26 @@
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 437,
             "description": "検索結果の配列と共に、検索結果の総件数を取得するよう設定します。\n検索結果の配列は最大100件までしか取得しませんが、countは検索結果の総件数を表示します。\n検索結果配列にcountプロパティとして付加されます。",
             "itemtype": "method",
-            "name": "Query<T>#count",
+            "name": "Query#count",
             "return": {
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 450,
             "description": "指定したkeyをソートして検索結果を取得するよう設定します。\n（複数設定可能。先に指定したkeyが優先ソートされる。）\nフラグによって降順ソートも可能です。降順フラグはキーごとに設定できます。",
             "itemtype": "method",
-            "name": "Query<T>#order",
+            "name": "Query#order",
             "params": [
                 {
                     "name": "key",
@@ -1838,14 +1838,14 @@
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 475,
             "description": "検索結果の最大取得数を設定します。設定値は1から1000まで、デフォルト値は100です。",
             "itemtype": "method",
-            "name": "Query<T>#limit",
+            "name": "Query#limit",
             "params": [
                 {
                     "name": "limit",
@@ -1857,14 +1857,14 @@
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 493,
             "description": "指定したskipの件数だけ頭から除いた検索結果を取得するよう設定します。",
             "itemtype": "method",
-            "name": "Query<T>#skip",
+            "name": "Query#skip",
             "params": [
                 {
                     "name": "skip",
@@ -1876,14 +1876,14 @@
                 "description": "",
                 "type": "This"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 507,
             "description": "objectIdから一意のオブジェクトを取得します。",
             "itemtype": "method",
-            "name": "Query<T>#fetchById",
+            "name": "Query#fetchById",
             "params": [
                 {
                     "name": "id",
@@ -1901,14 +1901,14 @@
                 "description": "オブジェクト",
                 "type": "Promise<T>"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 542,
             "description": "検索条件に合致するオブジェクトのうち、先頭の一つだけを取得します。",
             "itemtype": "method",
-            "name": "Query<T>#fetch",
+            "name": "Query#fetch",
             "params": [
                 {
                     "name": "callback",
@@ -1921,14 +1921,14 @@
                 "description": "検索結果に合致したオブジェクト",
                 "type": "Promise<T>"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/query.js",
             "line": 564,
             "description": "検索条件に合致するオブジェクトをすべて取得します。",
             "itemtype": "method",
-            "name": "Query<T>#fetchAll",
+            "name": "Query#fetchAll",
             "params": [
                 {
                     "name": "callback",
@@ -1941,7 +1941,7 @@
                 "description": "検索結果に合致したオブジェクトの配列",
                 "type": "Promise<Array<T>>"
             },
-            "class": "Query<T>"
+            "class": "Query"
         },
         {
             "file": "lib/relation.js",

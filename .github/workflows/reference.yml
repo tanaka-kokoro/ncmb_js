@@ -1,6 +1,10 @@
 name: Generate Reference 
 
-on: [push]
+on:
+  push:
+    branches:
+      - feature/ci_reference
+      # 最終的にmasterに変更する
 
 jobs:
   generate_reference:

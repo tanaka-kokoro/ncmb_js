@@ -13,7 +13,7 @@ YUI.add("yuidoc-meta", function(Y) {
         "NCMB.Script",
         "NCMB.User",
         "Operation",
-        "Query<T>"
+        "Query"
     ],
     "modules": [],
     "allModules": [],
