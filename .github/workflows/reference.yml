@@ -1,9 +1,12 @@
 name: Generate Reference 
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
-  generate_reference-and-push_ncmb_doc:
+  generate_reference-and-commit:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -41,12 +44,12 @@ jobs:
 
     - name: Commit docs
       run: |
-        git add -N ./docs/
         if ! git diff --exit-code --quiet
         then
-          git commit -m "Replace docs"
+          git add .
+          git commit -m "Auto replace refarence files"
           git pull
-          git push origin master
+          git push origin develop
         fi
 
     - name: zip docs
