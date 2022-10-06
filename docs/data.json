@@ -206,7 +206,7 @@
             "extension_for": [],
             "file": "lib/installation.js",
             "line": 7,
-            "description": "プッシュ配信端末の操作を扱うクラスです。\n\n※注意：\n２種類のメソッド（インスタンスメソッド Instance method とスタティックメソッド Static method）があります。\nそれぞれリファレンス上の表記と利用時のメソッドが異なりますので、下記を参考にご利用ください。\n\n  - リファレンス上の表記が「NCMB.Installation#メソッド名」: インスタンスメソッド Instance method\n     - 利用例）NCMB.Installation#update\n       ```\n       var installation = ncmb.Installation()\n       installation.objectId = \"xxxxxxx\";\n       installation.set(\"region\", \"Asia\");\n       installation.update();\n       ```\n  - リファレンス上の表記が「NCMB.InstallationConstructor#メソッド名」: スタティックメソッド Static method\n     - Installationの場合は、お客様に提供するスタティックメソッドはクエリQueryのみになります。",
+            "description": "プッシュ配信端末の操作を扱うクラスです。\n\n※注意：\n２種類のメソッド（インスタンスメソッド Instance method とスタティックメソッド Static method）があります。\nそれぞれリファレンス上の表記と利用時のメソッドが異なりますので、下記を参考にご利用ください。\n\n  - リファレンス上の表記が「NCMB.Installation#メソッド名」: インスタンスメソッド Instance method\n     - 利用例）NCMB.Installation#update\n       ```\n       var installation = ncmb.Installation()\n       installation.objectId = \"xxxxxxx\";\n       installation.set(\"region\", \"Asia\");\n       installation.update();\n       ```\n  - リファレンス上の表記が「NCMB.InstallationConstructor#メソッド名」: スタティックメソッド Static method\n     - Installationの場合は、お客様に提供するスタティックメソッドはクエリQueryのみになります。\n\n【リファレンス変更のテスト】",
             "extends": "{Operation}",
             "params": [
                 {
@@ -786,7 +786,7 @@
         },
         {
             "file": "lib/installation.js",
-            "line": 78,
+            "line": 79,
             "description": "配信端末情報を削除します。",
             "itemtype": "method",
             "name": "NCMB.Installation#delete",
@@ -806,7 +806,7 @@
         },
         {
             "file": "lib/installation.js",
-            "line": 102,
+            "line": 103,
             "description": "配信端末情報を更新します。",
             "itemtype": "method",
             "name": "NCMB.Installation#update",
@@ -826,14 +826,14 @@
         },
         {
             "file": "lib/installation.js",
-            "line": 146,
+            "line": 147,
             "interface": "NCMB.InstallationConstructor",
             "extends": "Query<Installation>",
             "class": "NCMB.Installation"
         },
         {
             "file": "lib/installation.js",
-            "line": 151,
+            "line": 152,
             "itemtype": "method",
             "name": "NCMB.InstallationConstructor#new",
             "params": [
@@ -2854,7 +2854,7 @@
         },
         {
             "message": "unknown tag: name",
-            "line": " lib/installation.js:151"
+            "line": " lib/installation.js:152"
         },
         {
             "message": "unknown tag: name",
@@ -2890,7 +2890,7 @@
         },
         {
             "message": "Missing item type",
-            "line": " lib/installation.js:146"
+            "line": " lib/installation.js:147"
         },
         {
             "message": "Missing item type",
